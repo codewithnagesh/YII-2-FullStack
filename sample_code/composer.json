@@ -1,0 +1,34 @@
+{
+    "name": "global/yii2-trans",
+    "description": "Translation management extension for Yii 2",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "translate", "language", "module"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://google.com/",
+		"source": "https://google.com/"
+	},
+    "authors": [
+        {
+            "name": "Author",
+            "email": "author@example.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-jui": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "global\\translate\\": ""
+        }
+    },
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix --config=.php_cs",
+        "cs-fix-dry-run": "php-cs-fixer fix --config=.php_cs --dry-run --diff"
+    }
+}
